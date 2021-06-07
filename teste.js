@@ -1,3 +1,3 @@
 function b () {
-  return { a: 1 }
+  return { b: 1 }
 }

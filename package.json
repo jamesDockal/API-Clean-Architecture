@@ -9,9 +9,16 @@
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  }
 }
